@@ -1,0 +1,18 @@
+<view style="height:30rpx"></view>
+<view class="good-item" wx:for="{{datalist}}" >
+<view style="height:40rpx"></view>
+    <text class="title">{{item.title}}</text>
+    <navigator url="/pages/videosDetail/videosDetail?id={{item._id}}">
+    <video class ="contentVideo" id="myVideo" src="{{item.video}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>   
+    </navigator>
+</view>  
+    
+<view style="height:85rpx"></view>
+  
+
+ 
+
+
+
+
+

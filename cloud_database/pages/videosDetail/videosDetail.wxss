@@ -1,0 +1,17 @@
+.title{
+  font-size: 50rpx;
+  text-align:center;
+  margin-top: 10rpx;
+  background-color: lightsteelblue;
+}
+.contentVideo{
+  width: 100%;
+  height: 460rpx;
+  margin-left: 10rpx;
+}
+.content_text{
+  font-size:40rpx;
+  text-indent:32rpm;
+  margin-left: 10px;
+  color: darkslateblue;
+}

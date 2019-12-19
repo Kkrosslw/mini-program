@@ -1,0 +1,5 @@
+<view class="title">今日新闻速递</view>
+<view style="height:55rpx"></view>
+<video class ="contentVideo" id="myVideo"src="{{item.video}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+<view style="height:85rpx"></view>
+<view class="content_text">{{item.content}}</view>

@@ -1,0 +1,15 @@
+.detail-title{
+  font-size: 30rpx;
+  color: darkblue;
+}
+.text{
+  font-size: 40rpx;
+  color: darkolivegreen;
+}
+text{
+  background-color: lightsteelblue;
+}
+.all{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}

@@ -1,0 +1,36 @@
+
+ <view class='btns'>
+  <navigator url="/pages/index/index"   open-type="navigate"  class="nav">
+  <view class="nav_btn {{gameType == '0' ? 'selected' : ''}}" bindtap="navbtn" data-id='0'>头条</view>
+  </navigator>
+ <navigator url="/pages/index1/index1"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '1' ? 'selected' : ''}}" bindtap="navbtn" data-id='1'>娱乐</view>
+  </navigator>
+  <navigator url="/pages/index2/index2"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '2' ? 'selected' : ''}}" bindtap="navbtn" data-id='2'>科技</view>
+    </navigator>
+  <navigator url="/pages/index3/index3"   open-type="navigate"  class="nav" >
+  <view class="nav_btn {{gameType == '3' ? 'selected' : ''}}" bindtap="navbtn" data-id='4'>军事
+</view>
+  </navigator>
+ <navigator url="/pages/index4/index4"   open-type="navigate"  class="nav" >
+<view class="nav_btn {{gameType == '4' ? 'selected' : ''}}" bindtap="navbtn" data-id='4'>体育
+</view>
+  </navigator>
+</view>
+<view style="height:85rpx"></view>
+<swiper autoplay  interval="4000" circular="true"  indicatorDots="true" indicator-color="red" indicator-active-color="blue" circular="true">
+<swiper-item>  <image mode="widthFix" src="http://www.people.com.cn/adv/dw220900626.jpg"></image> </swiper-item>
+<swiper-item>  <image mode="widthFix" src="http://military.people.com.cn/NMediaFile/2019/0104/MAIN201901041419089907607840983.jpg"></image> </swiper-item>
+<swiper-item>  <image mode="widthFix" src="http://legal.people.com.cn/NMediaFile/2019/0613/MAIN201906131544493926997086884.jpg"></image> </swiper-item>
+<swiper-item>  <image mode="widthFix" src="http://world.people.com.cn/NMediaFile/2019/1205/MAIN201912051103233067430852908.jpg"></image> </swiper-item>
+</swiper>
+
+<view class="good-item" wx:for="{{datalist}}" >
+    <image class="good-image" src="{{item.pic}}" mode="widthFix" style="height:150px;width:120px"></image>
+    <navigator url="../../pages/detail/detail?id={{item._id}}">
+    <view class="good-detail">
+      <view>{{item.title}}</view>
+    </view>
+    </navigator>
+</view>  

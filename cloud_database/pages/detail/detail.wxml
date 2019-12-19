@@ -1,0 +1,10 @@
+<view>
+ <image src="{{item.img}}" style="height:200px" mode="widthFix"></image>
+ </view>
+ <view class="all">
+  <text>{{item.name}}</text>
+  <view class="detail-title">{{item.text}}</view>
+  <view style="height:50rpx"></view>
+  <text>内容详情</text>
+  <view class="text">{{item.content}}</view>
+</view>
