@@ -1,0 +1,27 @@
+<view>
+  <text class="title">英国死亡货车案将开庭，司机视频受审</text>
+  <view>
+    <video class ="contentVideo" id="myVideo"src="http://cloudvideo.thepaper.cn/video/8bb41f3f1ef743dd859b629247ff6824/hd/9057d64d-64de-4fe9-9027-790b50877363-f6d3f2d9-f28d-28cf-2c08-dfdd51330fbd.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+      <text class="content_text">当地时间10月28日，英国死亡货车事件中25岁涉案司机莫里斯·罗宾逊将接受审讯，警方表示罗宾逊将以视频的形式受审，但未给出其不出席庭审的原因。</text>
+    </view>
+</view>   
+
+ <!-- 第二个视频 -->
+  
+<view>
+  <text class="title">刚刚，世界顶尖科学家协会上海中心揭牌</text>
+  <view>
+    <video class ="contentVideo" id="myVideo"src="http://cloudvideo.thepaper.cn/video/26168e7aae374109b0d06e69e73684bf/hd/0eb63db2-908f-46d9-a702-de62cb7ca09a-24bf3658-5bf3-4cd9-6fcc-43ac3d4f7f92.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <text class="content_text">10月29日，上海临港，世界顶尖科学家协会上海中心正式揭牌成立，还向全球发布世界顶尖科学家科学社区方案，有61位世界顶尖科学家在现场见证了这一时刻。</text>
+    </view>
+</view>
+
+
+<!--第三个视频  -->
+ <view>
+    <text class="title">大叔送列车上的78名消防员每人一瓶饮料</text>
+    <view>
+        <video class ="contentVideo" id="myVideo"src="http://cloudvideo.thepaper.cn/video/80548b7bf2024d868dc86a56c1552672/hd/f58d7495-788f-4ac8-bc61-327811092574-b60477de-691f-e6fe-0301-d1c2e2dbc079.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+      <text class="content_text">10月26日，D7813次列车上，一位热心大哥找到乘务员，给在车厢中偶遇的78名消防员每人买了一瓶饮料，并坚持不透露姓名，付了700余元饮料钱便离开了。</text>
+    </view>
+  </view>
