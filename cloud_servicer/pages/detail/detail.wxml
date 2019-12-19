@@ -1,0 +1,9 @@
+
+<view class="good-item">
+  <image class="good-image" src="{{item.img}}"   mode="widthFix"   ></image>
+  <view class="good-detail">
+    <view class="title">{{item.title}}</view>
+    <view style="height:20rpx"></view>
+    <view class="content">{{item.description}}  </view>
+     </view>
+</view>
